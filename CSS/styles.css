@@ -1,7 +1,7 @@
 :root {
     --very-light-pink: #685050;
     --text-input-field: #beabab;
-    --hospital-green: #35e74c;
+    --hospital-green: #244228;
     --white: #FFFFFF;
     --black: black;
     --sm: 1.4rem;
@@ -21,6 +21,8 @@ html {
 
 h1 {
     font-size: 3.2rem;
+    box-shadow: inset -3px 0px 10px 9px black;
+    text-align: center;
 }
 
 .login {
@@ -83,7 +85,7 @@ h1 {
 
 .primary-button {
     background-color: var(--hospital-green);
-    border-radius: 8px;
+    border-radius: 25px;
     border: none;
     color: var(--white);
     width: 100%;
